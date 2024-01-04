@@ -25,13 +25,18 @@
       #batch-box .para{
         margin: 0 auto;
         font-size: 3vmax;
+        width:100%;
       }
+      #heading-4{
+      width: fit-content;
+      margin: 2vh auto;
+    }
     }
     #upper-left{
       background:#FDB97E;
       width: 100%;
-      border-top-right-radius: 40px;
-      border-bottom-right-radius: 40px;
+      border-top-right-radius: 80px;
+      border-bottom-right-radius: 80px;
 
     }
     #heading-1 p{
@@ -43,8 +48,19 @@
       
     
     }
-    @media only screen and (max-width : 660px) {
-       #heading-1{
+    @media only screen and (max-width :460px){
+      #upper{
+        display: block;
+        overflow: hidden;
+      }
+      #batch-box .para{
+        margin: 0 auto;
+        font-size: 3vmax;
+      }
+      #heading-4{
+      font-size: 7vmax;
+    }
+    #heading-1{
         width: fit-content;
         margin: 1vh auto;
        }
@@ -57,7 +73,7 @@
       margin: 0 auto;
     }
     #image img{
-      height: 40vh;
+      height: auto;
     }
     #heading-3{
       margin: 0 auto;
@@ -92,6 +108,65 @@
       margin: 0 auto;
       font-family: monospace;
     }
+    #batch-box{
+      width: fit-content;
+      margin: 2vh auto;
+
+    }
+    #upper-right{
+      width: 100%;
+    }
+    }
+    @media only screen and (max-width : 660px) {
+       #heading-1{
+        width: fit-content;
+        margin: 1vh auto;
+       }
+       #heading-2{
+        width: fit-content;
+        margin: 0 auto;
+       }
+       #image{
+      width: fit-content;
+      margin: 0 auto;
+    }
+    #image img{
+      height: auto;
+    }
+    #heading-3{
+      margin: 0 auto;
+      width: fit-content;
+    }
+    #contact-us{
+      width: fit-content;
+      margin: 1vh auto;
+      font-size: 2.5vmax;
+      font-family: monospace;
+      font-weight: 550;
+    }
+    #ph-no{
+      width: fit-content;
+      margin: 1vh auto;
+      font-size: 1.5vmax;
+    }
+    #emails{
+      width: fit-content;
+      margin: 1vh auto;
+      font-size: 1.5vmax;
+    }
+    #address{
+      width: fit-content;
+      margin: 1vh auto;
+      font-size: 1.5vmax;
+    }
+    #heading-2{
+      font-size: 4vmax;
+      font-weight: 550;
+      width: fit-content;
+      margin: 0 auto;
+      font-family: monospace;
+    }
+    
     }
     
     #heading-2{
@@ -105,20 +180,20 @@
       width: 50%;
       align-items: center;
       justify-content: center;
-      display: block;
+      /* display: block; */
       
     }
-    #heading-4{
+    /* #heading-4{
       justify-content: center;
       align-items: center;
-    }
+    } */
     #image{
       width: fit-content;
       margin: 1.5vh auto;
     }
     #image img{
       width: 25vw;
-      height: 30vh;
+      height: auto;
      
     }
     #heading-3{
@@ -175,6 +250,21 @@
       width: fit-content;
       margin: 1vh auto;
       font-size: 1.5vmax;
+    }
+    @media only screen and (max-width:660px){
+      #batch-box{
+        width: 100%;
+        margin: 2vh auto;
+        font-size: 1rem;
+      }
+      #heading-4{
+        width: fit-content;
+        margin: 1vh auto;
+        font-size: 1.6rem;
+      }
+      #upper-right{
+        margin: 0 auto;
+      }
     }
   </style>
 </head>
